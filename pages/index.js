@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Gregory Anderson</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,14 +17,14 @@ export default function Home() {
         <img src="/greg.png" alt="Greg" className={styles.logo} />
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a target="_blank" href="https://main.d1c9y9h64gi11a.amplifyapp.com/" className={styles.card}>
             <h3>Matching Shapes</h3>
             <p>HTML/CSS/JS</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a target="_blank" href="https://main.d1zl8mhk88pyp0.amplifyapp.com/" className={styles.card}>
+            <h3>CRM Table</h3>
+            <p>Next.js/Typescript/Redux</p>
           </a>
 
           <a
@@ -47,16 +47,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+      {/* <footer>
+      </footer> */}
 
       <style jsx>{`
         main {
