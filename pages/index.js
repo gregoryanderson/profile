@@ -24,15 +24,15 @@ export default function Home() {
 
           <a target="_blank" href="https://main.d1zl8mhk88pyp0.amplifyapp.com/" className={styles.card}>
             <h3>CRM Table</h3>
-            <p>Next.js/Typescript/Redux</p>
+            <p>Next.js/Typescript/Redux/Tailwind CSS</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Calculator</h3>
+            <p>Angular/Typescript</p>
           </a>
 
           <a
@@ -46,9 +46,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      {/* <footer>
-      </footer> */}
 
       <style jsx>{`
         main {
