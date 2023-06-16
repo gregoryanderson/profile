@@ -28,7 +28,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://main.d2zsxbeukf1g0n.amplifyapp.com/"
             className={styles.card}
           >
             <h3>Calculator</h3>
