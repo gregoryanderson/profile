@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -10,39 +10,45 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Gregory Anderson
-        </h1>
+        <h1 className={styles.title}>Gregory Anderson</h1>
 
         <img src="/greg.png" alt="Greg" className={styles.logo} />
 
         <div className={styles.grid}>
-          <a target="_blank" href="https://main.d1c9y9h64gi11a.amplifyapp.com/" className={styles.card}>
+          <a
+            target="_blank"
+            href="https://main.d1c9y9h64gi11a.amplifyapp.com/"
+            className={styles.card}
+          >
             <h3>Matching Shapes</h3>
             <p>HTML/CSS/JS</p>
           </a>
 
-          <a target="_blank" href="https://main.d1zl8mhk88pyp0.amplifyapp.com/" className={styles.card}>
-            <h3>CRM Table</h3>
-            <p>Next.js/Typescript/Redux/Tailwind CSS</p>
+          <a
+            target="_blank"
+            href="https://main.d1zl8mhk88pyp0.amplifyapp.com/"
+            className={styles.card}
+          >
+            <h3>Customer Relationship Table</h3>
+            <p>Next.js/Typescript/Redux/Tailwind CSS/AWS Amplify</p>
           </a>
 
           <a
+            target="_blank"
             href="https://main.d2zsxbeukf1g0n.amplifyapp.com/"
             className={styles.card}
           >
             <h3>Calculator</h3>
-            <p>Angular/Typescript</p>
+            <p>Angular/Typescript/AWS Amplify</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            href="https://shrouded-beach-49821-3031fdaf97fe.herokuapp.com/"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>CRUD Blog</h3>
+            <p>Ruby/Rails/Heroku</p>
           </a>
         </div>
       </main>
@@ -98,5 +104,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
