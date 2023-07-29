@@ -17,11 +17,27 @@ export default function Home() {
         <div className={styles.grid}>
           <a
             target="_blank"
+            href="https://squid-app-64juc.ondigitalocean.app/"
+            className={styles.card}
+          >
+            <h3>LanguageLearnerAI</h3>
+            <p>Next.js/OpenAI/Auth0/Stripe/MongoDB/TailwindCSS/DigitalOcean</p>
+          </a>
+          <a
+            target="_blank"
             href="https://main.d1c9y9h64gi11a.amplifyapp.com/"
             className={styles.card}
           >
             <h3>Matching Shapes</h3>
             <p>HTML/CSS/JS</p>
+          </a>
+          <a
+            target="_blank"
+            href="https://shrouded-beach-49821-3031fdaf97fe.herokuapp.com/"
+            className={styles.card}
+          >
+            <h3>CRUD Blog</h3>
+            <p>Ruby/Rails/Heroku</p>
           </a>
 
           <a
@@ -40,15 +56,6 @@ export default function Home() {
           >
             <h3>Calculator</h3>
             <p>Angular/Typescript/AWS Amplify</p>
-          </a>
-
-          <a
-            target="_blank"
-            href="https://shrouded-beach-49821-3031fdaf97fe.herokuapp.com/"
-            className={styles.card}
-          >
-            <h3>CRUD Blog</h3>
-            <p>Ruby/Rails/Heroku</p>
           </a>
         </div>
       </main>
